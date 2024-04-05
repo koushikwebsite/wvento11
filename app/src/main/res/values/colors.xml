@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_700">#0D47A1</color>
+
+    <color name="teal_200">#90CAF9</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background">#121212</color>
+
+    <color name="text_mdm">#F3F3F3</color>
+    <color name="text_mdm1">#808080</color>
+    <color name="text_mdm2">#A6A6A6</color>
+    <color name="text_small">#80FFFFFF</color>
+    <color name="text_small2">#999999</color>
+
+    <color name="stroke">#C2C7CB</color>
+
+    <color name="placeholder">#343434</color>
+
+    <color name="navigation_menu">#2E2F33</color>
+
+    <color name="card_bg">#1f1f1f</color>
+    <color name="card_view_bg">#FFD8D8</color>
+    <color name="card_view_txt">#B71C1C</color>
+
+    <color name="category">#252525</color>
+
+    <color name="edit_box">#202020</color>
+    <color name="new_event_bg">#F51C1C1C</color>
+
+    <color name="green">#50C878</color>
+    <color name="green1">#4FFF89</color>
+
+    <color name="divider">#1E000000</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+
+    <!---->
+    <color name="yellow">#faa916</color>
+    <color name="pink">#ef476f</color>
+    <color name="greeny">#06d6a0</color>
+    <color name="orange">#ca6702</color>
+    <color name="red">#ef233c</color>
+
+    <color name="my_app_primary_container">#00429c</color>
+    <color name="my_app_on_primary_container">#d9e2ff</color>
+    <color name="my_app_secondary_container">#404659</color>
+    <color name="my_app_on_secondary_container">#dce2f9</color>
+    <color name="my_app_tertiary">#e0bbdd</color>
+    <color name="my_app_on_tertiary">#412742</color>
+    <color name="my_app_tertiary_container">#593d5a</color>
+    <color name="my_app_on_tertiary_container">#fdd7fa</color>
+    <color name="my_app_error">#ffb4ab</color>
+    <color name="my_app_on_error">#690005</color>
+    <color name="my_app_error_container">#93000a</color>
+    <color name="my_app_on_error_container">#ffdad6</color>
+    <color name="my_app_on_background">#e3e2e6</color>
+    <color name="my_app_surface">#1b1b1f</color>
+    <color name="my_app_on_surface">#e3e2e6</color>
+    <color name="my_app_outline">#8f9099</color>
+    <color name="my_app_surface_variant">#44464f</color>
+    <color name="my_app_on_surface_variant">#c5c6d0</color>
+
+
+</resources>

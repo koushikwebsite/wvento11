@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="125dp"
+    android:height="148dp"
+    android:viewportWidth="150"
+    android:viewportHeight="178">
+    <path
+        android:pathData="M75 167c41.42 0 75-33.58 75-75s-33.58-75-75-75S0 50.58 0 92s33.58 75 75 75Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="75"
+                android:startY="17"
+                android:endX="75"
+                android:endY="167">
+                <item
+                    android:color="#FFE3ECFA"
+                    android:offset="0"/>
+                <item
+                    android:color="#FFDAE7FF"
+                    android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <group>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M118 60H32c-2.76 0-5 2.24-5 5v105c0 2.76 2.24 5 5 5h86c2.76 0 5-2.24 5-5V65c0-2.76-2.24-5-5-5Z"/>
+    </group>
+    <path
+        android:fillColor="#FFB4DAFF"
+        android:pathData="M65 75H39c-1.66 0-3 1.34-3 3s1.34 3 3 3h26c1.66 0 3-1.34 3-3s-1.34-3-3-3Z"/>
+    <path
+        android:fillColor="#FFDFEAFB"
+        android:pathData="M83 88H39c-1.66 0-3 1.34-3 3s1.34 3 3 3h44c1.66 0 3-1.34 3-3s-1.34-3-3-3Z"/>
+    <path
+        android:fillColor="#FFB4DAFF"
+        android:pathData="M65 102H39c-1.66 0-3 1.34-3 3s1.34 3 3 3h26c1.66 0 3-1.34 3-3s-1.34-3-3-3Z"/>
+    <path
+        android:fillColor="#FFDFEAFB"
+        android:pathData="M83 115H39c-1.66 0-3 1.34-3 3s1.34 3 3 3h44c1.66 0 3-1.34 3-3s-1.34-3-3-3Z"/>
+    <path
+        android:fillColor="#FFB4DAFF"
+        android:pathData="M65 129H39c-1.66 0-3 1.34-3 3s1.34 3 3 3h26c1.66 0 3-1.34 3-3s-1.34-3-3-3Z"/>
+    <path
+        android:fillColor="#FFDFEAFB"
+        android:pathData="M83 142H39c-1.66 0-3 1.34-3 3s1.34 3 3 3h44c1.66 0 3-1.34 3-3s-1.34-3-3-3Z"/>
+    <group>
+        <path
+            android:fillColor="#FF1485FD"
+            android:pathData="M118 9H32c-2.76 0-5 2.24-5 5v30c0 2.76 2.24 5 5 5h86c2.76 0 5-2.24 5-5V14c0-2.76-2.24-5-5-5Z"/>
+    </group>
+    <path
+        android:fillColor="#FFB4DAFF"
+        android:pathData="M65 20H39c-1.66 0-3 1.34-3 3s1.34 3 3 3h26c1.66 0 3-1.34 3-3s-1.34-3-3-3Z"/>
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M83 33H39c-1.66 0-3 1.34-3 3s1.34 3 3 3h44c1.66 0 3-1.34 3-3s-1.34-3-3-3Z"/>
+</vector>

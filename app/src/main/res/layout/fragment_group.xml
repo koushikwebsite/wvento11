@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.fragments.GroupFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:text="@string/hello"
+            android:textColor="@color/text_mdm1"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/hello"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="32dp"
+            android:layout_toStartOf="@+id/evt_notifications"
+            android:layout_toEndOf="@id/hello"
+            android:text="@string/username"
+            android:textColor="@color/text_mdm1"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hello"
+            android:layout_alignStart="@+id/hello"
+            android:text="@string/discover_events"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/chg_location"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_alignTop="@id/hello"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/evt_notifications"
+            android:background="@drawable/notify_bg_circle"
+            android:contentDescription="@string/location"
+            android:padding="6dp"
+            android:src="@drawable/ic_location" />
+
+        <ImageView
+            android:id="@+id/evt_notifications"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_alignTop="@id/hello"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/notify_bg_circle"
+            android:contentDescription="@string/notifications"
+            android:padding="6dp"
+            android:src="@drawable/ic_notify" />
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/shimmerFrameLayout"
+        layout="@layout/placeholder_popular_events"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+           <androidx.core.widget.NestedScrollView
+               android:id="@+id/nestedScrollView"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <LinearLayout
+                   android:id="@+id/rv_container"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <ViewFlipper
+                       android:id="@+id/pager"
+                       android:layout_width="match_parent"
+                       android:layout_height="170dp"
+                       android:layout_margin="16dp"
+                       android:flipInterval="5000"
+                       android:autoStart="true">
+
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/banner01"/>
+
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/banner02"/>
+
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/banner03"/>
+
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/banner04"/>
+
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/banner05"/>
+
+                   </ViewFlipper>
+
+                   <androidx.recyclerview.widget.RecyclerView
+                       android:id="@+id/rv_ctg"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="8dp"
+                       tools:listitem="@layout/item_search" />
+
+                   <TextView
+                       android:id="@+id/unSticky"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/nearby_your_location"
+                       android:textColor="@color/white"
+                       android:textSize="18sp"
+                       android:textStyle="bold"
+                       android:layout_margin="16dp" />
+
+                   <androidx.recyclerview.widget.RecyclerView
+                       android:id="@+id/rv_ltn_events"
+                       android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="1"
+                       android:layout_marginStart="16dp"
+                       android:layout_marginEnd="16dp"
+                       tools:listitem="@layout/item_event"/>
+
+               </LinearLayout>
+
+           </androidx.core.widget.NestedScrollView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_create"
+        app:fabSize="normal"
+        style="@style/Widget.Material3.FloatingActionButton.Primary"
+        app:tint="@color/white"
+        android:contentDescription="@string/create_evt"
+        app:backgroundTint="#104B7A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "691108125064",
+    "project_id": "wvento-872bf",
+    "storage_bucket": "wvento-872bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691108125064:android:42313772d9ce67a408c23d",
+        "android_client_info": {
+          "package_name": "com.wvt.wvento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691108125064-q5n1vatqd56vajtvrm5q7ajgg60hd7t0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wvt.wvento",
+            "certificate_hash": "c436ea4e11707d70e5a3d992b47870482772bcbb"
+          }
+        },
+        {
+          "client_id": "691108125064-8ifnmunnfgod5v4b2p5ku3t730sij479.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkFsUzfFIjtmMpVmgHV0d5lCv5QW7eD9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691108125064-8ifnmunnfgod5v4b2p5ku3t730sij479.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
