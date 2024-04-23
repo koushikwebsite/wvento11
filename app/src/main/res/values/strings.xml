@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Wvento</string>
+
+    <string name="connection_msg">No internet connection, check the\nconnection to your network.</string>
+    <string name="connection_lost">Connection Lost!</string>
+    <string name="view_more">View It</string>
+    <string name="discover_events">Discover Events</string>
+    <string name="hello">Hello,</string>
+
+    <string name="logout">Logout</string>
+    <string name="logout_icon">Logout icon</string>
+    <string name="invite_a_friend">Invite a Friend</string>
+    <string name="invite_friend_icon">Invite a Friend icon</string>
+    <string name="rate_our_app">Rate our App</string>
+    <string name="rate_app_icon">Rate our App icon</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="help_support_icon">Help and Support icon</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_icon">Privacy icon</string>
+    <string name="settings">Settings</string>
+    <string name="settings_icon">Settings icon</string>
+    <string name="report_bug">Report a Bug</string>
+    <string name="location_icon">Location icon</string>
+
+    <string name="userMail">Usernameid@gmail.com</string>
+    <string name="username">UserName</string>
+    <string name="usr_profile">User Profile</string>
+    <string name="navigate">navigate</string>
+
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="intro_login">Find Amazing Events Around \nthe world at one place</string>
+    <string name="evt_location">Select the locations to get \nEvent Notifications</string>
+    <string name="start_exploring_events">Start exploring Events</string>
+    <string name="uploaded">Uploaded SuccessFully</string>
+    <string name="uploading">Uploading Please Wait</string>
+    <string name="click_here_to_select_media">Click here to select Media.</string>
+    <string name="upload_your_event">Upload your Event</string>
+
+    <string name="evt_dsc">Event Description :</string>
+    <string name="evt_nm">Event Name</string>
+    <string name="evt_rm_title">Add a reminder for this event into your calender</string>
+    <string name="evt_details">Event More Details :</string>
+    <string name="ctg_title">Category</string>
+    <string name="cdn_title">Conducted by</string>
+    <string name="evt_date">Event Date</string>
+    <string name="evt_time">Event Time</string>
+    <string name="evt_ltn">Event Location</string>
+    <string name="add_reminder">Add a Reminder</string>
+    <string name="evt_poster">Event Poster</string>
+    <string name="evt_video">Event Video</string>
+    <string name="evt_cover">event cover</string>
+    <string name="event_video_play_btn">event video play</string>
+    <string name="select_ur_ltn">Select your Location</string>
+    <string name="proceed">Let\'s Proceed</string>
+    <string name="back">back</string>
+    <string name="share">share</string>
+    <string name="search_evt_nm">Search Event name</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="no_results_found">No Result Found !</string>
+    <string name="no_result_desc">Try to search with different one</string>
+    <string name="create_evt">Create Event</string>
+
+    <string name="no_category_desc">Try to Explore with different one</string>
+
+    <string name="onBoarding">onBoarding</string>
+    <string name="notifications">Notifications</string>
+    <string name="select_ur_evt_ltn">Select your Event Location</string>
+
+    <string name="evt_open">Event\nOpen</string>
+    <string name="evt_closed">Event\nClosed</string>
+    <string name="evt_progress">Event\nin Progress</string>
+
+    <string name="join_events">Join Events</string>
+    <string name="finish">Finish</string>
+    <string name="notification_time">Notification Time</string>
+
+    <string name="event_end_time">Event End Time</string>
+    <string name="event_start_time">Event start Time</string>
+    <string name="event_start_date">Event start Date</string>
+    <string name="event_end_date">Event End Date</string>
+    <string name="location">Location</string>
+    <string name="click_to_select_ltn">click here to select location</string>
+    <string name="click_here">%s "view on Map"</string>
+    <string name="select_ctg">Select Category</string>
+    <string name="evt_ctg">Event Category</string>
+    <string name="evt_dsc_hint">Your Event Description goes here…</string>
+    <string name="resolution">1920x1080</string>
+    <string name="stories">Stories</string>
+    <string name="explore">Explore</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+
+    <string name="evt_duration">%s " - " %s</string>
+    <string name="evt_time_place">%s" : "%s</string>
+    <string name="evt_price_holder">"₹"%s</string>
+    <string name="evt_organizer">Organized by %s</string>
+
+    <string name="cal_evt_count">"Your Events("%s")"</string>
+
+    <string-array name="selectCategory">
+        <item>College Fests</item>
+        <item>Sports Tournament</item>
+        <item>Cultural Days</item>
+        <item>StandUp Comedy</item>
+        <item>National Days</item>
+        <item>Music &amp; Dance</item>
+        <item>Fan Clubs</item>
+        <item>Yoga &amp; Meditation</item>
+        <item>Party Meetings</item>
+        <item>Festival Days</item>
+        <item>Technical Event</item>
+        <item>Party Nights</item>
+    </string-array>
+
+    <string name="title_activity_help">HelpActivity</string>
+
+    <string name="ctn_msg">Message</string>
+    <string name="ctn_email">Email</string>
+    <string name="ctn_nm">Full Name</string>
+    <string name="contact_us">Contact us</string>
+
+    <string name="send_message">Send Message</string>
+    <string name="max_250_words">Max 250 words</string>
+    <string name="about_us">About us</string>
+    <string name="website">Website</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="youtube">Youtube</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="faq">FAQ</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="select_location">Select Location</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="event_price">Event Price</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="theme">Theme</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="application_cache">Application Cache</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="calendar">Calendar</string>
+    <string name="enter_event_entry_price">Enter Event Entry Price</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="welcome_screen1">Create events in your STYLE and let people know what\'s coming up</string>
+    <string name="nearby_your_location">Nearby Your Location</string>
+    <string name="welcome_title2">Exploring Upcoming and \n Nearby Events</string>
+    <string name="welcome_screen2">Effortlessly find events that interest \nyou in a single place</string>
+    <string name="welcome_title3">Easily Add Events to Your \nCalender</string>
+    <string name="welcome_screen3">Automatically add events to your calendar seamlessly so you never miss an Opportunity to celebrate events.</string>
+    <string name="change_loc_dialog">Select the location from dropdown box you wish too.</string>
+    <string name="ok">OK</string>
+    <string name="cal_permission_req">Calender permission is required to display your events.</string>
+    <string name="storage_permission_req">"Storage permission is required to upload your media "</string>
+    <string name="stay_up_to_date">Stay up to date</string>
+    <string name="notify_desc">See Updates from all people and interact with their events</string>
+
+</resources>
